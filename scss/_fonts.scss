@@ -2,7 +2,16 @@
   font-family: "Manrope";
   src: url("../fonts/ManropeExtraLight-Regular.woff2") format("woff2"),
     url("../fonts/ManropeExtraLight-Regular.woff") format("woff");
-  font-weight: 200;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/ManropeExtraLight-Bold.woff2") format("woff2"),
+    url("../fonts/ManropeExtraLight-Bold.woff") format("woff");
+  font-weight: 700;
   font-style: normal;
   font-display: swap;
 }

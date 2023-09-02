@@ -1,5 +1,8 @@
 .header {
-  background-color: #17121270;
+  &-intro-wrapper {
+    background-color: var(--dark-purple);
+    padding-top: 56px;
+  }
 
   &__container {
     display: flex;
@@ -14,13 +17,30 @@
     &_img {
       display: block;
     }
+
+    &:hover {
+      opacity: 0.8;
+    }
+
+    &:active {
+      opacity: 0.6;
+    }
   }
 
   &__link {
     display: inline-block;
     font-weight: 700;
-    letter-spacing: -0.18px;
     color: #ffffff;
     border-bottom: 3px solid var(--eucaplyptus);
+    line-height: 32px;
+    transition: 0.4s all ease;
+
+    &:hover {
+      color: var(--eucaplyptus);
+    }
+
+    &:active {
+      opacity: 0.6;
+    }
   }
 }
