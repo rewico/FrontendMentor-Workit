@@ -48,3 +48,60 @@
     height: 427px;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .intro {
+    &__title {
+      max-width: 500px;
+      font-size: 55px;
+      line-height: 70px;
+    }
+
+    &__btn {
+      padding: 11px 24px 12px 23px;
+      font-size: 16px;
+      letter-spacing: -0.16px;
+    }
+
+    &__img {
+      width: 480px;
+      height: 287px;
+    }
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .intro {
+    &__title {
+      max-width: 360px;
+      font-size: 36px;
+      line-height: 50px;
+    }
+
+    &__img {
+      width: 310px;
+      height: 210px;
+    }
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .intro {
+    &__title {
+      max-width: 280px;
+      font-size: 28px;
+      line-height: 50px;
+    }
+
+    &__btn {
+      padding: 6px 14px 6px 14px;
+      font-size: 14px;
+      letter-spacing: -0.16px;
+    }
+
+    &__img {
+      width: 280px;
+      height: 180px;
+    }
+  }
+}

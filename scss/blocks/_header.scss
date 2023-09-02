@@ -16,6 +16,8 @@
 
     &_img {
       display: block;
+      width: 97px;
+      height: 26px;
     }
 
     &:hover {
@@ -33,6 +35,7 @@
     color: #ffffff;
     border-bottom: 3px solid var(--eucaplyptus);
     line-height: 32px;
+    letter-spacing: -0.18px;
     transition: 0.4s all ease;
 
     &:hover {
@@ -41,6 +44,41 @@
 
     &:active {
       opacity: 0.6;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    &-intro-wrapper {
+      padding-top: 32px;
+    }
+
+    &__link {
+      font-size: 16px;
+      letter-spacing: -0.16px;
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .header {
+    &__logo_img {
+      width: 70px;
+      height: 19px;
+    }
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .header {
+    &-intro-wrapper {
+      padding-top: 32px;
+    }
+
+    &__link {
+      font-size: 14px;
+      letter-spacing: -0.16px;
     }
   }
 }
