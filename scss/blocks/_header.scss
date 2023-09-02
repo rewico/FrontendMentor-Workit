@@ -1,0 +1,26 @@
+.header {
+  background-color: #17121270;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    display: inline-block;
+    padding: 3px 3px 6px 3px;
+
+    &_img {
+      display: block;
+    }
+  }
+
+  &__link {
+    display: inline-block;
+    font-weight: 700;
+    letter-spacing: -0.18px;
+    color: #ffffff;
+    border-bottom: 3px solid var(--eucaplyptus);
+  }
+}
