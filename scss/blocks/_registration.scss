@@ -1,0 +1,27 @@
+.regis {
+  &__content {
+    background: var(--dark-purple);
+
+    &_title {
+      color: var(--white);
+      font-family: var(--heading-font-family);
+      font-size: 56px;
+      line-height: 64px;
+    }
+
+    &_text {
+      color: var(--white);
+      line-height: 32px;
+    }
+
+    &_link {
+      color: var(--dark-purple);
+      font-weight: 700;
+      line-height: 32px;
+      letter-spacing: -0.18px;
+      padding: 11px 22px 14px 23px;
+      background-color: var(--eucaplyptus);
+      border: 2px solid var(--eucaplyptus);
+    }
+  }
+}
